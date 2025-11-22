@@ -1,0 +1,59 @@
+<!-- =============================
+PART 1 — index.html
+============================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dynamic Border Generator – Barra PRO</title>
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="sidebar">
+<h2>Border Generator – Barra PRO</h2>
+
+
+<div class="group"><label>Velocidade</label><input id="speed" type="number" value="6"></div>
+
+
+<div class="group"><label>Modo de Cores</label>
+<select id="mode">
+<option value="themes">Temas (JSON)</option>
+<option value="manual">Manual (C1–C4)</option>
+<option value="hue">Pastel + Hue Shift</option>
+</select>
+</div>
+
+
+<div id="themeBox" class="group"><label>Temas</label><select id="theme"></select></div>
+
+
+<div id="manualBox" style="display:none;">
+<div class="group"><label>Cor 1</label><input type="color" id="c1" value="#ffb3c6"></div>
+<div class="group"><label>Cor 2</label><input type="color" id="c2" value="#ff8fab"></div>
+<div class="group"><label>Cor 3</label><input type="color" id="c3" value="#bde0fe"></div>
+<div class="group"><label>Cor 4</label><input type="color" id="c4" value="#a2d2ff"></div>
+</div>
+
+
+<div id="hueBox" class="group" style="display:none;">
+<label>Hue Shift</label>
+<input type="range" id="hueShift" min="0" max="360" value="0">
+</div>
+
+
+<button id="exportBtn">Gerar Link</button>
+<p id="resultLink" style="word-break:break-all;margin-top:10px;"></p>
+</div>
+
+
+<div class="preview">
+<div class="parallax-bg"></div>
+<div id="box" class="border-box"></div>
+</div>
+
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
