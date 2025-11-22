@@ -1,0 +1,12 @@
+<!-- =============================
+PART 3 — assets/data/themes.json
+============================= -->
+{
+"Pastel Pink": ["#ffb3c6","#ff8fab","#fb6f92","#ffc2d1"],
+"Pastel Blue": ["#bde0fe","#a2d2ff","#c9e4ff","#8ecfff"],
+"Cotton Candy": ["#ffa8e2","#ffd1ff","#ace7ff","#b8cfff"],
+"Holographic": ["#ff9ff3","#feca57","#48dbfb","#f368e0"],
+"Soft Rainbow": ["#ffadad","#ffd6a5","#fdffb6","#caffbf"],
+"Neon Blue": ["#00eaff","#00c7ff","#0099ff","#33eeff"]
+}
+
